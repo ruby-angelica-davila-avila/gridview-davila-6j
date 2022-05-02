@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:davila/gridviewcatalogo.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(TeslaApp());
 } //funcion principal
 
-class MyApp extends StatelessWidget {
+class TeslaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
