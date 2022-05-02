@@ -12,7 +12,7 @@ class TeslaApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Aprendiendo en GridView',
         theme: ThemeData(
-          primarySwatch: Colors.pink[50],
+          primarySwatch: Colors.pink,
         ),
         home: Paginainicial());
   }
