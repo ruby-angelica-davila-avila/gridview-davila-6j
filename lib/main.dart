@@ -12,11 +12,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Aprendiendo en GridView',
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.black,
         ),
         home: MyHomePage());
   }
 } //widgets sin estado
-
-//
-//

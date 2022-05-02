@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Flutter GridView"),
+          title: Text("GridView Catalogo TESLA"),
         ),
         body: GridView.builder(
           itemCount: images.length,
