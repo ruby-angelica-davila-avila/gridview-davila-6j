@@ -33,3 +33,20 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/3.jpg",
     "assets/images/5.jpg",
   ];
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: Text("Flutter GridView"),
+        ),
+        body: GridView.builder(
+          itemCount: images.length,
+          itemBuilder: (BuildContext context, int index) {
+            return Image.asset(images[index], fit: BoxFit.cover);
+          },
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, mainAxisSpacing: 10, crossAxisSpacing: 10),
+          padding: EdgeInsets.all(10),
+          shrinkWrap: true,
+        ));
+  }
+}
