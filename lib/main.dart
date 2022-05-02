@@ -14,6 +14,6 @@ class TeslaApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage());
+        home: Paginainicial());
   }
 } //widgets sin estado
